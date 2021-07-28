@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font: 62.5%;
+}
+body {
+  background-color: red;
+}
+#logo {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+}
+.title h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.wrapper {
+  background-color: white;
+  height: 30rem;
+  margin: 2.5rem auto;
+  width: 30rem;
+}
+
+.wrapper form {
+  width: 100%;
+  padding: 0.2rem 2rem;
+}
+.wrapper form .input_field {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.wrapper form .input_field label {
+  margin-right: 1rem;
+  width: 100px;
+  font-size: 0.5;
+}
+.wrapper form .input_field #textarea {
+  resize: none;
+  height: 3rem;
+}

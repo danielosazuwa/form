@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font: 62.5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+#logo {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+nav li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 2rem;
+}
